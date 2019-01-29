@@ -12,7 +12,7 @@ def init_browser():
 
 def scrape():
     browser = init_browser()
-    mars_facts_data = {}
+    facts_data = {}
 
     nasa = "https://mars.nasa.gov/news/"
     browser.visit(nasa)
